@@ -13,4 +13,24 @@ public class TestShouldFail {
     public void testShouldFail() {
         assertEquals("test1", "test");
     }
+    
+    @Test
+    public void testShouldPass1() {
+        assertEquals("test1", "test");
+    }
+    
+    @Test
+    public void testShouldPass2() {
+        assertEquals("test1", "test");
+    }
+    
+    @Test
+    public void testShouldPass3() {
+        assertEquals("test1", "test");
+    }
+    
+    @Test
+    public void testShouldPass4() {
+        assertEquals("test1", "test");
+    }
 }
