@@ -5,12 +5,12 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by menyo01 on 01/01/2018.
  */
-public class TestShouldFailed {
+public class TestShouldFail {
 
 
 
     @Test
-    public void testShouldFailed() {
+    public void testShouldFail() {
         assertEquals("test1", "test");
     }
 }
