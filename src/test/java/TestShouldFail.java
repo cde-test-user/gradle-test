@@ -16,21 +16,21 @@ public class TestShouldFail {
     
     @Test
     public void testShouldPass1() {
-        assertEquals("test1", "test");
+        assertEquals("test", "test");
     }
     
     @Test
     public void testShouldPass2() {
-        assertEquals("test1", "test");
+        assertEquals("test", "test");
     }
     
     @Test
     public void testShouldPass3() {
-        assertEquals("test1", "test");
+        assertEquals("test", "test");
     }
     
     @Test
     public void testShouldPass4() {
-        assertEquals("test1", "test");
+        assertEquals("test", "test");
     }
 }
