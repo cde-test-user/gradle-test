@@ -5,13 +5,15 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by menyo01 on 01/01/2018.
  */
-public class TestShouldFail {
-
-
+public class LongTests {
 
     @Test
-    public void testShouldFail() {
-        assertEquals("test1", "test");
+    public void longTest() throws InterruptedException {
+        for (int i=120; i>0; i--) {
+            System.out.println(i);
+            Thread.sleep(1000L);
+        }
+        assertEquals("test1", "test1");
     }
     
     @Test
