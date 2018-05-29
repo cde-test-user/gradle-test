@@ -9,7 +9,7 @@ public class LongTests {
 
     @Test
     public void longTest() throws InterruptedException {
-        for (int i=120; i>0; i--) {
+        for (int i=1200; i>0; i--) {
             System.out.println(i);
             Thread.sleep(1000L);
         }
