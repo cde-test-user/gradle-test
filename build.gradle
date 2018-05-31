@@ -27,3 +27,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+task printVars {
+  doLast {
+    def v1 = System.getenv("MY_VAR1");
+    def v2 = System.getenv("MY_VAR2");
+    println "MY_VAR1 = " + v1
+    println "MY_VAR2 = " + v2
+  }
+}
+
+test.dependsOn printVars
